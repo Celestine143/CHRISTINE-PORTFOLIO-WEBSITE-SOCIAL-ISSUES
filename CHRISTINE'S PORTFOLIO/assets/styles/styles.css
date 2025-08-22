@@ -1,0 +1,29 @@
+@import "button.css";
+
+@import "navbar.css";
+@import "hero-banner.css";
+@import "goal.css";
+@import "footer.css";
+@import "contact.css";
+@import "about.css";
+@import "thankyou.css";
+@import "key-skills.css";
+@import "projects.css";
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  overflow-x: hidden;
+}
+
+.container{
+  max-width: 1280px;  
+  margin: 0 auto;
+}

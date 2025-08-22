@@ -1,0 +1,50 @@
+#about{
+    display: flex;
+    background: white;
+    padding: 72px 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 50px;
+}
+
+.about-image{
+    width: 60%;
+}
+
+
+.about-image img{
+    width: 60%;
+    object-fit: cover;
+    height: auto;
+    border-radius: 60px;
+    margin-left: 250px;
+}
+
+.about-content{
+    max-width: 500px;
+    color: black;
+}
+
+.H1{
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-content p{
+    margin: 14px 0;
+    color: black;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.about-content .btn-container{
+    display: flex;
+    gap: 15px;
+    margin-left: 150px;
+   
+}

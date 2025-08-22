@@ -1,0 +1,50 @@
+#key-skills {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#key-skills h2 {
+  font-size: 64px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+#key-skills p {
+  margin-bottom: 30px;
+  font-size: 25px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.skill {
+  text-align: left;
+  font-size: 16px;
+}
+
+.bar {
+  height: 18px;
+  background: #ddd;
+  border-radius: 20px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #333;
+  border-radius: 20px;
+}
+
+.fill.html { width: 90%; }
+.fill.css  { width: 80%; }
+.fill.js   { width: 70%; }
+.fill.figma{ width: 85%; }

@@ -1,0 +1,45 @@
+#Projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 50px 50px;
+    gap: 200px;
+}
+
+.project-image img{
+    width: 120%;
+}
+
+.project-image{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.project-content{
+    max-width: 800px;
+    color: black;
+}
+
+.project-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-left: 10px;
+}
+
+.project-content p{
+    margin: 14px 0px;
+    font-style: italic;
+    color: black;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.project-content .btn-container{
+    margin-left: 150px;
+}
